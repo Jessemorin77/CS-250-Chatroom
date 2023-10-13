@@ -28,6 +28,7 @@
 declare module '$env/static/private' {
 	export const DATABASE_URL: string;
 	export const _tide_location_color: string;
+	export const TMUX: string;
 	export const USER: string;
 	export const npm_config_user_agent: string;
 	export const GIT_ASKPASS: string;
@@ -45,15 +46,15 @@ declare module '$env/static/private' {
 	export const npm_config_userconfig: string;
 	export const npm_config_local_prefix: string;
 	export const DBUS_SESSION_BUS_ADDRESS: string;
-	export const COLORTERM: string;
 	export const WSL_DISTRO_NAME: string;
+	export const COLORTERM: string;
 	export const COLOR: string;
 	export const npm_config_metrics_registry: string;
 	export const WAYLAND_DISPLAY: string;
 	export const LOGNAME: string;
-	export const WSL_INTEROP: string;
-	export const PULSE_SERVER: string;
 	export const NAME: string;
+	export const PULSE_SERVER: string;
+	export const WSL_INTEROP: string;
 	export const npm_config_prefix: string;
 	export const TERM: string;
 	export const npm_config_cache: string;
@@ -83,6 +84,7 @@ declare module '$env/static/private' {
 	export const XDG_DATA_DIRS: string;
 	export const npm_config_global_prefix: string;
 	export const npm_command: string;
+	export const TMUX_PANE: string;
 	export const HOSTTYPE: string;
 	export const WSL2_GUI_APPS_ENABLED: string;
 	export const WSLENV: string;
@@ -120,6 +122,7 @@ declare module '$env/dynamic/private' {
 	export const env: {
 		DATABASE_URL: string;
 		_tide_location_color: string;
+		TMUX: string;
 		USER: string;
 		npm_config_user_agent: string;
 		GIT_ASKPASS: string;
@@ -137,15 +140,15 @@ declare module '$env/dynamic/private' {
 		npm_config_userconfig: string;
 		npm_config_local_prefix: string;
 		DBUS_SESSION_BUS_ADDRESS: string;
-		COLORTERM: string;
 		WSL_DISTRO_NAME: string;
+		COLORTERM: string;
 		COLOR: string;
 		npm_config_metrics_registry: string;
 		WAYLAND_DISPLAY: string;
 		LOGNAME: string;
-		WSL_INTEROP: string;
-		PULSE_SERVER: string;
 		NAME: string;
+		PULSE_SERVER: string;
+		WSL_INTEROP: string;
 		npm_config_prefix: string;
 		TERM: string;
 		npm_config_cache: string;
@@ -175,6 +178,7 @@ declare module '$env/dynamic/private' {
 		XDG_DATA_DIRS: string;
 		npm_config_global_prefix: string;
 		npm_command: string;
+		TMUX_PANE: string;
 		HOSTTYPE: string;
 		WSL2_GUI_APPS_ENABLED: string;
 		WSLENV: string;
